@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="puppyFace.jpg" type="image/icon" />
+    <script
+      src="https://kit.fontawesome.com/a8ad6e744d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>PuppyTown</title>
+  </head>
+  <body>
+    <div class="navbar" id="nav">
+      <img src="logo.jpg" alt="Logo" class="logo" />
+      <div class="links">
+        <a class="active" href="#Home"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="#Features"><i class="fa-solid fa-dog fa-xl"></i> Features</a>
+        <a href="#Pricing"
+          ><i class="fa-sharp fa-solid fa-money-check-dollar"></i> Pricing</a
+        >
+        <a href="#Testimonials"
+          ><i class="fa fa-fw fa-user"></i> Testimonials</a
+        >
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="showNav()">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+    </div>
+
+    <div class="content">
+      <section id="Home">
+        <div class="container">
+          <div class="left-div">
+            <h1>Puppies are the future</h1>
+            <h1>
+              Tired of babies and children always crying? Introducing Hire a
+              puppy
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              voluptatum, quibusdam, quos, voluptates voluptate quia quae
+              voluptatibus quod doloribus quas fugit. Quisquam voluptatum,
+              quibusdam, quos, voluptates voluptate quia quae voluptatibus quod
+              doloribus quas fugit.
+            </p>
+            <button class="container-btn">Get Started</button>
+            <button class="container-btn">Learn More</button>
+          </div>
+          <div class="right-div">
+            <img
+              class="img"
+              src="https://images.unsplash.com/photo-1583511655826-05700d52f4d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHVwcHl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="Features">
+        <div class="row">
+          <div class="column">
+            <i class="fa-solid fa-paw icons-features"></i>
+            <h3>Men's Best Friend</h3>
+            <p class="p-features">
+              Must go faster. You really think you can fly that thing? This
+              thing comes fully loaded. AM/FM radio, reclining bucket seats,
+              and... power windows. Yeah, but John, if The Pirates of the
+              Caribbean breaks down, the pirates don’t eat the tourists. Just my
+              luck, no ice.
+            </p>
+          </div>
+          <div class="column">
+            <i class="fa-solid fa-bone icons-features"></i>
+            <h3>Healthy Bones</h3>
+            <p class="p-features">
+              Yes, Yes, without the oops! Did he just throw my cat out of the
+              window? God help us, we're in the hands of engineers. Just my
+              luck, no ice. Just my luck, no ice. Must go faster. Did he just
+              throw my cat out of the window? Hey, take a look at the
+              earthlings. Goodbye!
+            </p>
+          </div>
+          <div class="column">
+            <i class="fa-solid fa-heart icons-features"></i>
+            <h3>Feel Love Like You've Never Before</h3>
+            <p class="p-features">
+              Eventually, you do plan to have dinosaurs on your dinosaur tour,
+              right? We gotta burn the rain forest, dump toxic waste, pollute
+              the air, and rip up the OZONE! 'Cause maybe if we screw up this
+              planet enough, they won't want it anymore!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="Pricing">
+        <div class="pricing-section">
+          <h1>Pricing</h1>
+          <p>
+            God creates dinosaurs. God destroys dinosaurs. God creates Man. Man
+            destroys God. Man creates Dinosaurs.
+          </p>
+        </div>
+        <div class="row-price">
+          <div class="column-price">
+            <div class="card">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt="Avatar"
+                class="card-img"
+              />
+              <div class="container-price">
+                <h4>Hi, I'm Jake</h4>
+                <p>
+                  When I grow up I wanna be a guard dog, the cutest to ever
+                  guard and the best.
+                </p>
+                <button class="card-btn">Hire</button>
+              </div>
+            </div>
+          </div>
+          <div class="column-price">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMa1Q2gmif7LdU_1Xe_L8S2cePT5wZ0OjneA&usqp=CAU"
+                alt="Avatar"
+                class="card-img"
+              />
+              <div class="container-price">
+                <h4>Hey! I'm Paul</h4>
+                <p>
+                  My ability is, scent detection, I can sniff out danger from a
+                  mile away and I'm extra cute.
+                </p>
+                <button class="card-btn">Hire</button>
+              </div>
+            </div>
+          </div>
+          <div class="column-price">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUSs6-w3cV9QDOND3Bh6mgblbMAVoydCaSWQ&usqp=CAU"
+                alt="Avatar"
+                class="card-img"
+              />
+              <div class="container-price">
+                <h4>Hi, the name's Lucy</h4>
+                <p>
+                  I don't do much, but I always get what i want. May I have a
+                  treat?
+                </p>
+                <button class="card-btn">Hire</button>
+              </div>
+            </div>
+          </div>
+          <div class="column-price">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeFukJU2K-x1eMK9tROH9rFC8UWTE6pE-Jjw&usqp=CAU"
+                alt="Avatar"
+                class="card-img"
+              />
+              <div class="container-price">
+                <h4><b>Yo, humans call me Spotty</b></h4>
+                <p>
+                  Not sure why they call me Spotty but I think it has to do with
+                  my cuteness
+                </p>
+                <button class="card-btn">Hire</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Testimonials">
+        <h2>Testimonials</h2>
+        <div class="row">
+          <div class="column-testimonial-left">
+            <h3>Sipho Mkwanaze</h3>
+            <p>Cash Intransit Employee</p>
+            <p>
+              "I was looking for a dog to guard my house and I found the perfect
+              one on this website. I am very happy with the service I received"
+            </p>
+            <span
+              ><i class="fa-brands fa-square-instagram fa-beat fa-2xl"></i
+            ></span>
+            <span><i class="fa-brands fa-twitter fa-bounce fa-2xl"></i></span>
+            <span><i class="fa-brands fa-facebook fa-fade fa-2xl"></i></span>
+          </div>
+          <div class="column-testimonial-right">
+            <img
+              src="https://thumbs.dreamstime.com/b/young-african-man-995716.jpg"
+              alt=""
+              class="img-test"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="Footer">
+        <div class="footer">
+          <img src="logo.jpg" alt="Logo" class="logo" />
+          <a class="menu" href="#Home"
+            ><i class="fa fa-fw fa-home fa-xl"></i
+          ></a>
+          <a class="menu" href="#Features"
+            ><i class="fa-solid fa-dog fa-xl"></i
+          ></a>
+          <a class="menu" href="#Pricing"
+            ><i class="fa-sharp fa-solid fa-money-check-dollar fa-xl"></i
+          ></a>
+          <a class="menu" href="#Testimonials"
+            ><i class="fa fa-fw fa-user fa-xl"></i
+          ></a>
+
+          <a class="social-links"
+            ><i class="fa-brands fa-square-instagram fa-2xl"></i
+          ></a>
+          <a class="social-links"
+            ><i class="fa-brands fa-twitter fa-2xl"></i
+          ></a>
+          <a class="social-links"
+            ><i class="fa-brands fa-facebook fa-2xl"></i
+          ></a>
+        </div>
+      </section>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
